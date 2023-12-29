@@ -54,7 +54,7 @@ function TodoList() {
         {list.map((task,index) => {
           return (
             <div className="list" key={index}>
-              <input type="checkbox" />
+              {/*<input type="checkbox" /> */}
               {task}
               {/* <div className="btns"> */}
               <button onClick={()=>handleEdit(index, prompt('Edit Task', task))}><FaEdit size={20} color="red"/> Edit Task</button>
