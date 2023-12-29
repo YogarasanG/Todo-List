@@ -1,0 +1,19 @@
+.footer {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    /* Responsive styles for screens up to 768px wide */
+    .footer-content {
+      padding: 0 20px;
+    }
+  }
+  
