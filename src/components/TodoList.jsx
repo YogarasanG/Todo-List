@@ -56,8 +56,8 @@ function TodoList() {
             <div className="list" key={index}>         
               {task}
               {/* <div className="btns"> */}
-              <button onClick={()=>handleEdit(index, prompt('Edit Task', task))}><FaEdit size={20} color="red"/> Edit Task</button>
-              <button onClick={() => handleDelTask(index)}><FaTrash size={15} color="red"/> Delete Task</button>
+              <button onClick={()=>handleEdit(index, prompt('Edit Task', task))}><FaEdit size={20} color="red"/> Edit</button>
+              <button onClick={() => handleDelTask(index)}><FaTrash size={15} color="red"/> Delete</button>
               {/* </div> */}
             </div>
           );
